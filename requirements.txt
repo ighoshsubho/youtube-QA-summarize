@@ -1,0 +1,8 @@
+langchain
+youtube_transcript_api
+einops
+accelerate
+bitsandbytes
+xformers
+gradio
+transformers
