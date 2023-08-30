@@ -35,7 +35,6 @@ model_repo = 'tiiuae/falcon-rw-1b'
 tokenizer = AutoTokenizer.from_pretrained(model_repo)
 
 model = AutoModelForCausalLM.from_pretrained(model_repo,
-                                             load_in_8bit=True,
                                              device_map='auto',
                                              torch_dtype=torch.float16,
                                              low_cpu_mem_usage=True,
